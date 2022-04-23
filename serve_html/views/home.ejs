@@ -1,0 +1,14 @@
+<h1>Click on the books below to get details on it!</h1>
+<div class="bk">
+    {{#each books}}
+     <br> 
+     <br>
+     
+     <a class="bk" href="/books/{{_id}}">{{bookName}}</a>{{/each}}
+</div>
+
+<ul>
+    <a href="/home">List of Book</a><span>|</span>
+    <a href="/addNewBook">Add Book</a><span>|</span>
+    <a href="/deleteABook">Delete Book</a>
+</ul>
